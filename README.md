@@ -7,7 +7,7 @@
 
 ## 本地运行
 
-需要 node.js 环境
+### nodejs 用户
 
 执行以下命令：
 ```command
@@ -22,6 +22,10 @@
 	gulp serve
 ```
 正常情况下会自动在浏览器中打开 http://localhost:9000/ 。
+
+### 非 nodejs 用户
+
+打开 dist 目录，浏览器运行 index.html 文件即可。
 
 ## 替换成你的应用
 

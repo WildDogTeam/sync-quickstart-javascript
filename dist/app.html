@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Wilddog Sync 快速入门 Demo</title>
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="styles/vendor.css">
+
+    <link rel="stylesheet" href="styles/main.css">
+    
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header id="header">
+      <div class="container clearfix">
+        <span class="header-logo pull-left">
+          <img src="images/header-logo.632b6059.svg" width="40" height="40" alt="">
+          <span class="header-logo-text">Wilddog Sync 快速入门 Demo</span>
+        </span>
+      </div>
+    </header>
+    <div class="container">
+      <div class="index-bg-top"><img src="images/index-top.svg" alt=""></div>
+      <div class="index-bg-bottom"><img src="images/index-bottom.svg" alt=""></div>
+      <div class="discuss-container">
+        <div class="discuss-header text-center">
+          <img src="images/header-bg.png" width="100%" height="100%" class="discuss-header-bg" alt="">
+          <span class="discuss-header-title">评论墙 Demo</span>
+        </div>
+        <div class="discuss-details text-left">
+          <ul class="discuss-list"></ul>
+        </div>
+        <div class="discuss-footer text-left">
+          <input type="text" name="content" id="discuss-content" class="discuss-input" placeholder="评论内容..."><input type="text" name="presenter" id="discuss-presenter" class="discuss-input" placeholder="评论者"><button type="submit" class="btn btn-org-full pull-right discuss-submit" id="discuss-submit">添加评论</button>
+        </div>
+      </div>
+    </div>
+    <!-- 通过直接引用方式安装 SDK -->
+    <script src="https://cdn.wilddog.com/sdk/js/2.0.0/wilddog-sync.js"></script>
+    
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
