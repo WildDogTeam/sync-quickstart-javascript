@@ -1,0 +1,178 @@
+body {
+  background-color: #fcfcfc;
+  overflow-x: hidden;
+  height: 100%;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+  background-color: #e5e5e5;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-button {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: black;
+}
+/* 封面样式 */
+.index-bg-top {
+  position: absolute;
+  top: 0;
+  right: -100px;
+}
+.index-bg-bottom {
+  position: absolute;
+  bottom:0;
+  left: -100px;
+}
+.demo-guide {
+  position: relative;
+  z-index: 2;
+  margin-top: 170px;
+}
+.wilddog-logo {
+  margin: 0;
+}
+.demo-title {
+  margin-top: 80px;
+  line-height: 1;
+  color: #333;
+  font-size: 36px;
+  font-weight: 300;
+}
+.demo-link-line {
+  margin-top: 60px;
+}
+.demo-link {
+  width: 200px;
+  height: 56px;
+  line-height: 54px;
+  font-size: 18px;
+}
+
+/* demo 样式 */
+#header {
+  height: 72px;
+  border-bottom: 1px solid #e5e5e5;
+  -webkit-box-shadow: 0 3px 5px #efefef;
+     -moz-box-shadow: 0 3px 5px #efefef;
+          box-shadow: 0 3px 5px #efefef;
+  background-color: #fff;
+}
+.header-logo {
+  margin-top: 16px;
+}
+.header-logo-text {
+  color: #333;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.discuss-container {
+  position: relative;
+  z-index: 1;
+  margin: 80px auto 0;
+  width: 800px;
+  height: 520px;
+  box-shadow: 0 4px 10px #ddd;
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid #e5e5e5;
+}
+.discuss-header {
+  position: relative;
+  height: 56px;
+  line-height: 56px;
+}
+.discuss-header-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.discuss-header-title {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 20px;
+}
+.discuss-details {
+  height: 404px;
+  overflow-y: auto;
+  border-bottom: 1px solid #e5e5e5;
+}
+.discuss-footer {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  letter-spacing: 0;
+  height: 60px;
+  background-color: #fafafa;
+  line-height: 1;
+}
+.discuss-input {
+  padding-left: 10px;
+  width: 400px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+}
+.discuss-input:focus {
+  outline: none;
+}
+#discuss-presenter {
+  margin-left: 20px;
+  width: 160px;
+}
+.discuss-submit {
+  width: 100px;
+  height: 40px;
+}
+.discuss-list {
+  padding-top: 46px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.discuss-item {
+  position: relative;
+  margin-bottom: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
+  line-height: 1.7;
+  letter-spacing: 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #eee;
+}
+.discuss-content {
+  padding-right: 30px;
+  width: 85%;
+}
+.discuss-presenter {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15%;
+  padding-left: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #333;
+}

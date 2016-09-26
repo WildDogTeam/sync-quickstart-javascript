@@ -1,0 +1,11 @@
+{
+  "name": "doc2-demo",
+  "private": true,
+  "dependencies": {
+    "wilddog-ui": "*"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
