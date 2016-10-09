@@ -33,4 +33,4 @@
 
 替换成你自己的应用之后，可以在 [`控制面板-数据预览`](https://docs.wilddog.com/console/administer.html#数据预览) 中实时看到数据变化：
 
-![](datapreview.jpg)
+![](datapreview.png)
