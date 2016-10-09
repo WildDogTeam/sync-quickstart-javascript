@@ -44,7 +44,7 @@ function submitDisscus () {
 		return false
 	} else {
 		// push() 方法可以写入数据。更多写入方式请参考文档。
-		ref.push({
+		ref.child("messageboard").push({
 			content: content,
 			presenter: presenter
 		}).then(function () {
