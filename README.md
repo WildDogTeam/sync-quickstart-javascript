@@ -34,3 +34,6 @@
 替换成你自己的应用之后，可以在 [`控制面板-数据预览`](https://docs.wilddog.com/console/administer.html#数据预览) 中实时看到数据变化：
 
 ![](datapreview.png)
+
+## 社区
+如果遇到问题或有余力解答别人的问题可以到[野狗开发者社区](https://forum.wilddog.com) （**正在小规模测试**）
