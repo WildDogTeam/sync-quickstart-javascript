@@ -61,7 +61,7 @@ submitBtn.addEventListener('click', function () {
 
 <!-- 使用 on() 或 once() 方法可以读取并监听数据。-->
 // 'child_added'是 Child 事件的一种，此外还可以设置 Value 事件
-ref.on('child_added', function (snap) {
+ref.child("messageboard").on('child_added', function (snap) {
 	var val = snap.val();
 	createDisscus(val.content, val.presenter);
     discussShow.scrollTop = discussShow.scrollHeight;
